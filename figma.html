@@ -1,80 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Figma NavBar</title>
-  <link rel="stylesheet" href="figma.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-    <nav class="navbar containetr">
-      <h2>Jadoo</h2>
-    <ul>
-      <li><a href="">Destinations</a></li>
-      <li><a href="">Hotels</a></li>
-      <li><a href="">Flights</a></li>
-      <li><a href="">Bookings</a></li>
-      <li><a href="">Login</a></li>
-      <li><a href="" id="sign">Sign up</a></li>
-      <li><a href="">EN</a></li>
-    </ul>
-    </nav>
-    <img src="/images/0b16b05f-055a-4915-8b7f-9bc62573fde2.jpg" alt="">
-  </div>
-  </header>
-  <div class="second-container">
-    <div class="para">
-      <p><b>BEST DESTINATIONS AROUND THE WORLD</b></p>
-    </div>
-    <div>
-      <h1>Travel, enjoy 
-        <br>and live a new 
-        <br>and full life</h1>
-    </div>
-    <div class="paragraph">
-      <p>Built Wicket longer admire do barton vanity itself doin it.<br> Preffered to sportsmen it engrossed listening. Park gate <br>sell they west hard for the.</p>
-    </div>
-    <div class="btn">
-      <button>Find out more</button>
-    </div>
-    <div class="image">
-      <img src="images/6044d0b6-64ca-4bec-90b2-c7ceefddfc5b.jpg" alt="">
-    </div>
-  </div>
-  <div class="primary-container">
-    <div>
-      <h5>CATEGORY</h5>
-    </div>
-    <div class="heading">
-      <h2>We Offer Best Survices</h2>
-    </div>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma NavBar</title>
+    <link rel="stylesheet" href="figma.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-  <div class="first-box">
-    <div id="weather">
-      <img src="images/c7a9c566-141a-41db-b7c5-c8918333df54.jpg" alt="">
+  <body>
+    <header>
+      <nav class="navbar containetr">
+        <h2>Jadoo</h2>
+        <ul>
+          <li><a href="">Destinations</a></li>
+          <li><a href="">Hotels</a></li>
+          <li><a href="">Flights</a></li>
+          <li><a href="">Bookings</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="" id="sign">Sign up</a></li>
+          <li><a href="">EN</a></li>
+        </ul>
+      </nav>
+      <img
+        src="/images/0b16b05f-055a-4915-8b7f-9bc62573fde2.jpg"
+        alt=""
+        class="top-image"
+      />
+    </header>
+    <section class="container">
+      <!-- Hero section -->
+      <div class="primary-container">
+        <div class="second-container">
+          <p class="heading">
+            <b>BEST DESTINATIONS AROUND THE WORLD</b>
+          </p>
+          <h1>Travel, enjoy <br />and live a new <br />and full life</h1>
+          <p>
+            Built Wicket longer admire do barton vanity itself doin it.<br />
+            Preffered to sportsmen it engrossed listening. Park gate <br />sell
+            they west hard for the.
+          </p>
+          <button class="btn">Find out more</button>
+          <i class="fa-solid fa-circle-pause"> Play Demo </i>
+        </div>
+        <div class="image">
+          <img src="images/6044d0b6-64ca-4bec-90b2-c7ceefddfc5b.png" alt="" />
+        </div>
       </div>
-      </div>
+      <!-- category -->
       <div>
-        <h3>Calculated Weather</h3>
-       </div>
-       <div>
-         <p>Built Wicket longer  
-         </br>admire do barton  
-         </br>vanity itselfdo it in.</p>
-         </div>
-    </div>
-
-  <div class="second-box">
-    <div>
-    <img src="images/2926ccc6-84ee-4980-848c-58dca75db13a.jpg" alt="">
-    <h3>Best Flights</h3>
-    <p>Engrossed listening. 
-      <br>Park gate sell they
-      <br> west hard for the.</p>
-    </div>
-  </div>
-</body>
+        <div class="text">
+          <h4>CATEGORY</h4>
+          <h1>We Offer Best Survices</h1>
+        </div>
+        <div class="category">
+          <!-- weather -->
+          <div class="weather">
+            <img src="images/c7a9c566-141a-41db-b7c5-c8918333df54.jpg" alt="" />
+            <h3>Calculated Weather</h3>
+            <p>
+              Built Wicket longer <br />admire do barton <br />
+              vanity itselfdo it in.
+            </p>
+          </div>
+          <!-- Flights -->
+          <div class="flights">
+            <img src="images/2926ccc6-84ee-4980-848c-58dca75db13a.jpg" alt="" />
+            <h3>Best Flights</h3>
+            <p>
+              Engrossed listening. <br />
+              Park gate sell they <br />
+              west hard for the.
+            </p>
+          </div>
+          <!-- Events -->
+          <div class="events">
+            <img src="images/ff7dd193-d8cf-4aee-8388-491443078fdf.jpg" alt="" />
+            <h3>Local Events</h3>
+            <p>
+              Barton vanity itself do <br />
+              in it. Prefered to men it <br />
+              engrossed listening
+            </p>
+          </div>
+          <!-- Customization -->
+          <div class="customization">
+            <img src="images/746b62f3-0588-46c0-9027-d3380c4ea553.jpg" alt="" />
+            <h3>Customization</h3>
+            <p>
+              We deliver outsourced <br />
+              aviation services for <br />
+              miltary customers
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Heading -->
+      <div>
+        <div class="top-heading">
+          <h5>Top Selling</h5>
+          <h1>Top Destinations</h1>
+        </div>
+        <!-- Destinations -->
+        <div class="destinations">
+          <!-- Building city-2-->
+          <div class="city-2">
+            <img src="images/dcc733be-d469-4e57-8bc1-ce5cc9f2cfc1.jpg" alt="" />
+          </div>
+          <!-- ClockTower city-3 -->
+          <div class="city-3">
+            <img src="images/c7801509-fc36-4e75-95f6-5aad111f695e.jpg" alt="" />
+          </div>
+          <!-- City -->
+          <div class="city">
+            <img src="images/c2d7cae4-f0f0-4d59-9798-f7836c4d5886.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

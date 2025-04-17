@@ -5,118 +5,154 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
 }
 
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 ul li {
   list-style: none;
-}
-ul {
-  display: flex;
-  gap: 70px;
-  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
-.container {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  font-family: poppins;
+
+/* Make it class  */
+ul {
+  display: flex;
+  gap: 70px;
+  padding-top: 10px;
 }
-.container ul li a:hover{
-  text-decoration: underline;
-  color: purple;
-}
+
 .navbar {
   display: flex;
   justify-content: space-around;
+  padding-top: 20px;
 }
 .navbar h2 {
   color: 000000;
   font-size: 28px;
+  font-family: "Poppins", sans-serif;
 }
-.container{
-  position: relative;
-  cursor: pointer;
-  border-color: purple;
-}
-img{
+.top-image {
   position: absolute;
   top: 0%;
-  right: 0%;
+  right: 0;
   z-index: -1;
 }
-#sign{
+#sign {
   border: 1px solid black;
   padding: 3px 10px;
   border-radius: 3px;
 }
-.second-container{
+.primary-container {
   position: relative;
-}
-.para{
-  color: rgb(192, 32, 32);
-  margin-top: 60px;
-  padding-top: 90px;
-  padding-left: 55px;
-  font-size: large;
-}
-h1{
-  /* position: relative; */
-  margin-top: 10px;
-  padding-left: 200px;
-  font-size: 70px;
-}
-.paragraph{
   display: flex;
-  margin-top: 15px;
-  padding-left: 50px;
-  font-size: 20px;
 }
-.btn{
-  margin-top: 50px;
-  padding-left: 200px;
+
+.heading {
+  margin-top: 150px;
+  color: rgb(179, 81, 81);
+  font-family: "Poppins", sans-serif;
 }
-button{
-  margin: 6px 9px;
-  padding: 18px 22px;
-  font-size: 18px;
-  border-radius: 10px;
+.second-container h1 {
+  font-size: 60px;
+  margin-top: 4px;
+}
+.second-container p {
+  padding-top: 4px;
+}
+.second-container button {
+  margin: 25px;
+}
+.btn {
   border: none;
-  background-color: rgb(225, 163, 47);
+  padding: 11px 15px;
+  border-radius: 5px;
+  background-color: rgb(178, 140, 52);
   color: white;
 }
-h5{
+/* category */
+/* Text div */
+.text {
   text-align: center;
-  margin-top: 200px;
-  padding-bottom: 8px;
-  font-family: poppins;
-  color: rgb(109, 96, 96);
 }
-.heading{
-  text-align: center;
-  font-size: 30px;
+.text h1 {
+  font-size: 45px;
+  margin-top: 4px;
 }
-.first-box{
-  position:relative;
-  margin-right: 1400px;
+.text h4 {
+  color: rgb(84, 79, 79);
+  font-family: "Poppins", sans-serif;
 }
-#weather{
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   margin-top: 50px;
 }
-h3{
-  margin-top: 150px;
-  margin-left: 150px;
+.weather img {
+  margin-left: 25px;
+  height: 100px;
 }
-p{
-  margin-left: 155px;
-  margin-top: 20px;
+.weather h3 {
+  margin-top: 12px;
 }
-.second-box{
-  position: relative;
-  /* margin-left: 150px; */
-  /* margin-top: 0px; */
+.weather p {
+  margin-top: 10px;
+}
+/* Flight Category */
+.flights img {
+  margin-left: 25px;
+  height: 100px;
+}
+.flights p {
+  margin-top: 10px;
+}
+/* Events Category */
+.events img {
+  margin-left: 25px;
+  height: 100px;
+}
+.events h3 {
+  margin-top: 12px;
+}
+.events p {
+  margin-top: 10px;
+}
+/* Customization Category */
+.customization img {
+  margin-left: 25px;
+  height: 100px;
+}
+.customization h3 {
+  margin-top: 12px;
+}
+.customization p {
+  margin-top: 10px;
+}
+/* Heading */
+.top-heading {
+  margin-top: 130px;
+  justify-content: space-around;
+  text-align: center;
+}
+.top-heading h5 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(84, 79, 79);
+}
+.top-heading h1 {
+  font-size: 50px;
+  margin-top: 6px;
+}
+/* Destinations */
+.destinations {
+  display: flex;
+  margin-top: 35px;
+  height: 50px;
 }
