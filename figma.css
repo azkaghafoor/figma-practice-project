@@ -254,7 +254,8 @@ ul {
 /* Trip To Greece */
 /* Greece img */
 .greece {
+}
+.easy-steps {
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
 }
