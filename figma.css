@@ -51,7 +51,7 @@ ul {
   border-radius: 3px;
 }
 .primary-container {
-  position: relative;
+  /* position: relative; */
   display: flex;
 }
 
@@ -90,6 +90,7 @@ ul {
   color: rgb(84, 79, 79);
   font-family: "Poppins", sans-serif;
 }
+/* Category div */
 .category {
   display: flex;
   align-items: center;
@@ -153,6 +154,107 @@ ul {
 /* Destinations */
 .destinations {
   display: flex;
+  justify-content: space-evenly;
   margin-top: 35px;
   height: 50px;
+}
+/* City-1 */
+.city-1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 10px;
+}
+.city-2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 10px;
+}
+.city-3 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 10px;
+}
+.img-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 15px;
+}
+.img-1 p {
+  margin-left: 25px;
+}
+/* Booking Trips */
+.booking {
+  margin-top: 400px;
+}
+.booking h4 {
+  font-size: 15px;
+  font-family: poppins;
+  margin-left: 15px;
+  color: rgb(84, 79, 79);
+}
+.booking h1 {
+  font-size: 55px;
+  padding: 15px;
+}
+/* Paragraphs Booking */
+/* First img */
+.first-img {
+  margin-top: 15px;
+  display: flex;
+}
+.first-img h5 {
+  margin-left: 20px;
+  color: rgb(113, 104, 104);
+  font-family: poppins;
+}
+.first-img p {
+  font-family: poppins;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 67px;
+}
+/* Second img */
+.second-img {
+  margin-top: 40px;
+  display: flex;
+}
+.second-img h5 {
+  margin-left: 20px;
+  color: rgb(113, 104, 104);
+  font-family: poppins;
+}
+.second-img p {
+  font-family: poppins;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 67px;
+}
+/* Third img */
+.third-img {
+  margin-top: 40px;
+  display: flex;
+}
+.third-img h5 {
+  margin-left: 20px;
+  color: rgb(113, 104, 104);
+  font-family: poppins;
+}
+.third-img p {
+  font-family: poppins;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 67px;
+}
+/* Trip To Greece */
+/* Greece img */
+.greece {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
 }
