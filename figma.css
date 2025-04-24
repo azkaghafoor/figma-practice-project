@@ -5,7 +5,6 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  /* font-family: "Poppins", sans-serif; */
 }
 
 .container {
@@ -51,31 +50,68 @@ ul {
   border-radius: 3px;
 }
 .primary-container {
-  /* position: relative; */
   display: flex;
+  justify-content: space-between;
 }
 
 .heading {
   margin-top: 150px;
-  color: rgb(179, 81, 81);
-  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+  color: #df6951;
+  font-family: "Poppins";
 }
 .second-container h1 {
-  font-size: 60px;
+  font-family: "Volkhov";
+  color: #181e4b;
+  font-size: 80px;
   margin-top: 4px;
 }
 .second-container p {
+  font-family: "Poppins";
+  color: #5e6282;
   padding-top: 4px;
-}
-.second-container button {
-  margin: 25px;
 }
 .btn {
   border: none;
-  padding: 11px 15px;
+  padding: 18px 29px;
   border-radius: 5px;
-  background-color: rgb(178, 140, 52);
+  background-color: #f1a501;
   color: white;
+  font-family: "Google Sans";
+}
+.btn-demo {
+  display: flex;
+  margin-top: 15px;
+  gap: 20px;
+}
+.demo {
+  display: flex;
+  align-items: center;
+}
+i {
+  color: #df6951;
+  font-size: 45px;
+}
+span {
+  font-family: "Poppins";
+  margin-left: 15px;
+  color: #686d77;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  position: relative;
+}
+.airplane-1 {
+  position: absolute;
+  top: 45px;
+  left: 130px;
+}
+.airplane-2 {
+  position: absolute;
+  top: 188px;
+  right: -36px;
 }
 /* category */
 /* Text div */
@@ -85,10 +121,14 @@ ul {
 .text h1 {
   font-size: 45px;
   margin-top: 4px;
+  margin-bottom: 20px;
+  font-family: "Volkhov";
+  color: #14183e;
 }
-.text h4 {
-  color: rgb(84, 79, 79);
-  font-family: "Poppins", sans-serif;
+.text h5 {
+  margin-bottom: 10px;
+  color: #5e6282;
+  font-family: "Poppins";
 }
 /* Category div */
 .category {
@@ -101,40 +141,69 @@ ul {
   margin-left: 25px;
   height: 100px;
 }
-.weather h3 {
+.weather h4 {
+  color: #1e1d4c;
+  font-family: "Open Sans";
   margin-top: 12px;
 }
 .weather p {
+  font-family: "Poppins";
   margin-top: 10px;
+  font-size: 13px;
 }
 /* Flight Category */
+.flights {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 35px 45px;
+  border-radius: 25px;
+  position: relative;
+}
 .flights img {
   margin-left: 25px;
   height: 100px;
 }
+.flights h4 {
+  color: #1e1d4c;
+  font-family: "Open Sans";
+}
 .flights p {
+  font-family: "Poppins";
   margin-top: 10px;
+  font-size: 13px;
+}
+.rectangle-img {
+  position: absolute;
+  top: 230px;
+  right: 200px;
 }
 /* Events Category */
 .events img {
   margin-left: 25px;
   height: 100px;
 }
-.events h3 {
+.events h4 {
+  color: #1e1d4c;
+  font-family: "Open Sans";
   margin-top: 12px;
 }
 .events p {
+  font-family: "Poppins";
   margin-top: 10px;
+  font-size: 13px;
 }
 /* Customization Category */
 .customization img {
   margin-left: 25px;
   height: 100px;
 }
-.customization h3 {
+.customization h4 {
+  color: #1e1d4c;
+  font-family: "Open Sans";
   margin-top: 12px;
 }
 .customization p {
+  font-family: "Poppins";
+  font-size: 13px;
   margin-top: 10px;
 }
 /* Heading */
@@ -145,9 +214,11 @@ ul {
 }
 .top-heading h5 {
   font-family: "Poppins", sans-serif;
-  color: rgb(84, 79, 79);
+  color: #5e6282;
 }
 .top-heading h1 {
+  color: #14183e;
+  font-family: "Volkhov";
   font-size: 50px;
   margin-top: 6px;
 }
@@ -160,20 +231,29 @@ ul {
 }
 /* City-1 */
 .city-1 {
+  font-family: "Poppins";
+  color: #5e6282;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 5px;
   padding: 20px;
   height: fit-content;
   border-radius: 10px;
 }
+/* City 2 */
 .city-2 {
+  font-family: "Poppins";
+  color: #5e6282;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 20px;
   height: fit-content;
   border-radius: 10px;
 }
+/* City 3 */
 .city-3 {
+  font-family: "Poppins";
+  color: #5e6282;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 20px;
+  padding: 35px 20px;
   height: fit-content;
   border-radius: 10px;
 }
@@ -183,20 +263,24 @@ ul {
   margin-top: 15px;
 }
 .img-1 p {
+  font-family: "Poppins";
+  color: #5e6282;
   margin-left: 25px;
 }
 /* Booking Trips */
 .booking {
   margin-top: 400px;
 }
-.booking h4 {
+.booking h5 {
   font-size: 15px;
-  font-family: poppins;
+  font-family: "Poppins";
   margin-left: 15px;
-  color: rgb(84, 79, 79);
+  color: #5e6282;
 }
 .booking h1 {
-  font-size: 55px;
+  font-family: "Volkhov";
+  color: #14183e;
+  font-size: 50px;
   padding: 15px;
 }
 /* Paragraphs Booking */
@@ -207,11 +291,12 @@ ul {
 }
 .first-img h5 {
   margin-left: 20px;
-  color: rgb(113, 104, 104);
-  font-family: poppins;
+  color: #5e6282;
+  font-family: "Poppins";
 }
 .first-img p {
-  font-family: poppins;
+  font-family: "poppins";
+  color: #5e6282;
   font-size: 12px;
   position: absolute;
   margin-top: 25px;
@@ -224,11 +309,12 @@ ul {
 }
 .second-img h5 {
   margin-left: 20px;
-  color: rgb(113, 104, 104);
-  font-family: poppins;
+  color: #5e6282;
+  font-family: "Poppins";
 }
 .second-img p {
-  font-family: poppins;
+  font-family: "Poppins";
+  color: #5e6282;
   font-size: 12px;
   position: absolute;
   margin-top: 25px;
@@ -241,11 +327,12 @@ ul {
 }
 .third-img h5 {
   margin-left: 20px;
-  color: rgb(113, 104, 104);
-  font-family: poppins;
+  color: #5e6282;
+  font-family: "Poppins";
 }
 .third-img p {
-  font-family: poppins;
+  font-family: "Poppins";
+  color: #5e6282;
   font-size: 12px;
   position: absolute;
   margin-top: 25px;
@@ -254,8 +341,195 @@ ul {
 /* Trip To Greece */
 /* Greece img */
 .greece {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 15px;
 }
 .easy-steps {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.greece-text h4 {
+  color: #080809;
+  margin-top: 15px;
+  font-family: "Poppins";
+}
+.greece-text p {
+  color: #84829a;
+  margin-top: 5px;
+}
+.greece-text img {
+  margin-top: 5px;
+  padding: 5px;
+}
+/* building img */
+.building-img {
+  display: flex;
+}
+.building-img p {
+  margin-top: 9px;
+  margin-left: 5px;
+}
+/* Chris Thomas div */
+.Chris-Thomas {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.Chris-Thomas h5 {
+  font-family: "Poppins";
+  color: #5e6282;
+}
+.Chris-Thomas h1 {
+  margin-top: 15px;
+  color: #14183e;
+  font-family: "Volkhov";
+  font-size: 50px;
+}
+/* Chris img */
+.chris-box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 15px;
+}
+.chris-box p {
+  font-family: "Poppins";
+  color: #5e6282;
+  font-size: 15px;
+  margin-left: 25px;
+}
+.chris-box h3 {
+  font-family: "Poppins";
+  color: #5e6282;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.chris-box h6 {
+  font-family: "Poppins";
+  font-size: 10px;
+  color: #5e6282;
+}
+/* Logo */
+.logo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* first logo */
+.first-logo {
+  margin-top: 18px;
+}
+/* second logo */
+.second-logo {
+  margin-top: 25px;
+}
+/* forth logo */
+.forth-logo {
+  margin-top: 65px;
+}
+/* fifth logo */
+.fifth-logo {
+  margin-top: 70px;
+}
+/* Subscribe information */
+.subscribe {
+  height: 350px;
+  text-align: center;
+  margin-top: 70px;
+  background-color: #dfd7f9;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.subscribe h1 {
+  font-size: 25px;
+  font-family: "Poppins";
+  color: #5e6282;
+  padding-top: 40px;
+}
+/* text button */
+.text-button {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  justify-content: center;
+}
+.email-img {
+  position: relative;
+  top: 4px;
+  left: 60px;
+}
+.email input {
+  margin: 10px;
+  padding: 20px 100px;
+  border: none;
+  border-radius: 5px;
+}
+.text-button button {
+  padding: 20px 30px;
+  background-color: #ff946d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* last section */
+.last-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+/* first para */
+.first-para h1 {
+  font-size: 30px;
+  font-family: "Poppins";
+  color: #181e4b;
+}
+.first-para p {
+  font-family: "Poppins";
+  font-size: 13px;
+  color: #5e6282;
+}
+/* second para */
+.second-para h1 {
+  color: #080809;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.second-para p {
+  font-family: "Poppins";
+  color: #5e6282;
+  font-size: 13px;
+  margin-top: 10px;
+}
+/* third para */
+.third-para h1 {
+  color: #080809;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.third-para p {
+  font-family: "Poppins";
+  color: #5e6282;
+  font-size: 13px;
+  margin-top: 10px;
+}
+/* forth para */
+.forth-para h1 {
+  color: #080809;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.forth-para p {
+  font-family: "Poppins";
+  color: #5e6282;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.last-section h3 {
+  font-family: "Poppins";
+  color: #5e6282;
+  margin-bottom: 8px;
 }
