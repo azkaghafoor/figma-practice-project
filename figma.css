@@ -88,11 +88,11 @@ ul {
   display: flex;
   align-items: center;
 }
-i {
+.demo i {
   color: #df6951;
   font-size: 45px;
 }
-span {
+.demo p {
   font-family: "Poppins";
   margin-left: 15px;
   color: #686d77;
@@ -100,7 +100,7 @@ span {
 .image {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  /* margin-top: 80px; */
   position: relative;
 }
 .airplane-1 {
@@ -110,8 +110,10 @@ span {
 }
 .airplane-2 {
   position: absolute;
-  top: 188px;
-  right: -36px;
+  /* top: 188px;
+  right: -36px; */
+  top: 140px;
+  right: -52px;
 }
 /* category */
 /* Text div */
@@ -138,8 +140,8 @@ span {
   margin-top: 50px;
 }
 .weather img {
-  margin-left: 25px;
-  height: 100px;
+  /* margin-left: 25px; */
+  height: 80px;
 }
 .weather h4 {
   color: #1e1d4c;
@@ -153,24 +155,24 @@ span {
 }
 /* Flight Category */
 
-.flights, .weather, .customization, .events {
+.flights {
+  margin-bottom: 45px;
   padding: 35px 45px;
   border-radius: 25px;
   position: relative;
   background-color: white;
-  border: 2px solid #f1f1f1;
+  /* border: 2px solid #f1f1f1; */
   cursor: pointer;
 }
 
-
 .flights::before {
-  content: "" ;
+  content: "";
   background-image: url("./images/Rectangle\ 157.png");
   position: absolute;
   width: 100px;
   height: 100px;
   left: 0;
-  top: 202px;
+  top: 230px;
   z-index: -1;
   left: -36px;
   display: none;
@@ -182,13 +184,11 @@ span {
 
 .flights:hover {
   box-shadow: rgba(5, 123, 240, 0.2) 0px 8px 24px;
-} 
-
-
+}
 
 .flights img {
-  margin-left: 25px;
-  height: 100px;
+  /* margin-left: 25px; */
+  height: 135px;
 }
 .flights h4 {
   color: #1e1d4c;
@@ -206,8 +206,8 @@ span {
 }
 /* Events Category */
 .events img {
-  margin-left: 25px;
-  height: 100px;
+  /* margin-left: 25px; */
+  height: 80px;
 }
 .events h4 {
   color: #1e1d4c;
@@ -221,8 +221,8 @@ span {
 }
 /* Customization Category */
 .customization img {
-  margin-left: 25px;
-  height: 100px;
+  /* margin-left: 25px; */
+  height: 80px;
 }
 .customization h4 {
   color: #1e1d4c;
@@ -369,9 +369,9 @@ span {
 /* Trip To Greece */
 /* Greece img */
 .greece {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   padding: 20px;
-  height: fit-content;
+  height: max-content;
   border-radius: 15px;
 }
 .easy-steps {
@@ -398,6 +398,47 @@ span {
 .building-img p {
   margin-top: 9px;
   margin-left: 5px;
+}
+/* Up img */
+.upimg-text {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.up-img {
+  /* display: flex;
+  flex-wrap: nowrap; */
+  padding: 30px 10px;
+  border-radius: 25px;
+  position: relative;
+  background-color: white;
+  left: 150px;
+  bottom: 120px;
+  /* border: 2px solid #f1f1f1; */
+  cursor: pointer;
+}
+.greece::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 102px;
+  /* top: 202px; */
+  /* z-index: -1; */
+  left: -36px;
+  display: none;
+}
+.greece::before {
+  display: block;
+}
+.greece:hover {
+  box-shadow: rgba(5, 123, 240, 0.2) 0px 8px 24px;
+}
+.up-img::before {
+  display: block;
+}
+.up-img:hover {
+  box-shadow: rgba(5, 123, 240, 0.2) 0px 8px 24px;
 }
 /* Chris Thomas div */
 .Chris-Thomas {
